@@ -13,6 +13,7 @@ class TableCreator
     }
 
     public function renderTable() {
+        echo '<link rel="stylesheet" type="text/css" href="./style.css">';
         echo '<table border="1">';
 
         // Render headers
