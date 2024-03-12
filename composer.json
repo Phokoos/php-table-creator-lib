@@ -1,5 +1,5 @@
 {
-    "name": "table/table-creator",
+    "name": "table-php/table-creator",
     "description": "Easy way to create table",
     "type": "library",
     "authors": [
