@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Table\\TableCreator\\": "src/"
+            "YourNamespace\\": "src/"
         }
     },
     "require": {},
