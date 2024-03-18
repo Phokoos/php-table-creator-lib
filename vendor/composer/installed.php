@@ -3,7 +3,7 @@
         'name' => 'table-php/table-creator',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '4684d36aca941bfba628fb9096517172a02ea1be',
+        'reference' => '91d6e7342177c15c8479a38cff8d65443d1e8330',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -211,7 +211,7 @@
         'table-php/table-creator' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '4684d36aca941bfba628fb9096517172a02ea1be',
+            'reference' => '91d6e7342177c15c8479a38cff8d65443d1e8330',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

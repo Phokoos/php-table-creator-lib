@@ -13,7 +13,7 @@ class ComposerStaticInit64c2d69d1a738e4e5298f94004fe80ed
     public static $prefixLengthsPsr4 = array (
         'Y' => 
         array (
-            'YourNamespace\\' => 14,
+            'YdcTableCreator\\' => 16,
         ),
         'D' => 
         array (
@@ -23,7 +23,7 @@ class ComposerStaticInit64c2d69d1a738e4e5298f94004fe80ed
     );
 
     public static $prefixDirsPsr4 = array (
-        'YourNamespace\\' => 
+        'YdcTableCreator\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

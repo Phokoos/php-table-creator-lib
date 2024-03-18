@@ -1,18 +1,8 @@
 <?php
 
-namespace YourNamespace;
+namespace YdcTableCreator;
 
-class TableData
-{
-    public $headers;
-    public $data;
-    public $type;
-}
-
-interface CreateTable
-{
-    public function draw(TableData $tableData);
-}
+use YdcTableCreator\interfaces\CreateTable;
 
 class TableCreator
 {
@@ -28,36 +18,6 @@ class TableCreator
         $this->creator->draw($tableData);
     }
 }
-
-class CreateTableBasic implements CreateTable
-{
-    public function draw(TableData $tableData){
-        echo 'Draw basic' . $tableData->data;
-    }
-}
-
-class CreateTableBootstrap implements CreateTable
-{
-    public function draw(TableData $tableData){
-        echo 'Draw bootstrap' . $tableData->data;
-    }
-}
-
-$tableDataOne = new TableData();
-$tableDataOne->data = 'data';
-$tableDataOne->headers = 'headers';
-$tableDataOne->type = 'type';
-
-$creator = new TableCreator(new CreateTableBasic);
-$creator->create($tableDataOne);
-
-$tableDataSecond = new TableData();
-$tableDataSecond->data = 'data-2';
-$tableDataSecond->headers = 'headers-2';
-$tableDataSecond->type = 'type-2';
-
-$creator = new TableCreator(new CreateTableBootstrap);
-$creator->create($tableDataSecond);
 
 //class TableCreator
 //{
